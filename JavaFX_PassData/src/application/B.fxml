@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.bController">
+   <children>
+      <Button layoutX="249.0" layoutY="314.0" mnemonicParsing="false" onAction="#moveToA" text="A 화면으로 이동" />
+      <AnchorPane layoutX="200.0" layoutY="70.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="20.0" layoutY="14.0" prefHeight="81.0" prefWidth="160.0" text="B 화면">
+               <font>
+                  <Font size="36.0" />
+               </font></Label>
+               <TextField fx:id="tInput" layoutX="-21.0" layoutY="114.0">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.InsertController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="211.0" layoutY="8.0" prefHeight="39.0" prefWidth="200.0" text="글쓰기 ">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="114.0" text="작성자">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="63.0" text="제목">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tTitle" layoutX="149.0" layoutY="55.0" prefHeight="23.0" prefWidth="324.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <TextArea fx:id="tContent" layoutX="116.0" layoutY="163.0" prefHeight="187.0" prefWidth="455.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <TextField fx:id="tWriter" layoutX="149.0" layoutY="106.0" prefHeight="15.0" prefWidth="324.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <Button layoutX="531.0" layoutY="363.0" mnemonicParsing="false" onAction="#insert" text="등록" />
+   </children>
+</AnchorPane>
