@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="scenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="181.0" layoutY="14.0" prefHeight="104.0" prefWidth="239.0" text="프로그램 종료" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="196.0" layoutY="200.0" mnemonicParsing="false" onAction="#logout" prefHeight="41.0" prefWidth="208.0" text="로그아웃">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

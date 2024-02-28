@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="scenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#up" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Circle fx:id="circle" fill="DODGERBLUE" layoutX="300.0" layoutY="182.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button focusTraversable="false" layoutX="273.0" layoutY="22.0" mnemonicParsing="false" onAction="#up" onKeyPressed="#up" text="위" />
+      <Button focusTraversable="false" layoutX="14.0" layoutY="171.0" mnemonicParsing="false" onAction="#left" onKeyPressed="#left" text="왼쪽" />
+      <Button focusTraversable="false" layoutX="531.0" layoutY="171.0" mnemonicParsing="false" onAction="#right" onKeyPressed="#right" text="오른쪽" />
+      <Button focusTraversable="false" layoutX="273.0" layoutY="363.0" mnemonicParsing="false" onAction="#down" onKeyPressed="#down" text="아래" />
+   </children>
+</AnchorPane>
